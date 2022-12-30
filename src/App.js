@@ -1,13 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import {useState} from "react";
-import {svg} from './assets/happy.svg'
 function App() {
     const [step, setStep] = useState()
 
     switch (step) {
         case 'pop':
-            console.log(step)
             return (
                 <header className="App-header">
                     <div style={{textAlign: 'center'}}>
@@ -16,7 +14,7 @@ function App() {
                         <h2>ככה את מוותרת על ארוחת בוקר?</h2>
                         <h2>בסדר, בסדר, תקבלי את שניהם </h2>
                         <img src={require('./assets/Screen_Shot_2022-12-30_at_13.16.34-removebg-preview.png')} style={{display:'block', margin: '0 auto'}} />
-                        <button onClick={()=>setStep('')} style={{fontSize: 20, fontFamily:'heb_varela', marginTop: 10, borderRadius: 20, height: 40, width: 100, backgroundColor: 'none', }}>אחורה</button>
+                        <button onClick={()=>setStep('')} style={{fontSize: 20, fontFamily:'heb_varela', marginTop: 10, borderRadius: 20, height: 40, width: 100, backgroundColor: 'whitesmoke', }}>אחורה</button>
                     </div>
                 </header>
             )
@@ -29,7 +27,7 @@ function App() {
                         <h2>בתכלס את צודקת,</h2>
                         <h2>אבל למה לבחור כשאפשר את שניהם ?</h2>
                         <img src={require('./assets/Screen_Shot_2022-12-30_at_13.20.24-removebg-preview.png')} style={{display:'block', margin: '0 auto', height: 300}} />
-                        <button onClick={()=>setStep('')} style={{fontSize: 20, fontFamily:'heb_varela', marginTop: 10, borderRadius: 20, height: 40, width: 100, backgroundColor: 'none', }}>אחורה</button>
+                        <button onClick={()=>setStep('')} style={{fontSize: 20, fontFamily:'heb_varela', marginTop: 10, borderRadius: 20, height: 40, width: 100, backgroundColor: 'whitesmoke', }}>אחורה</button>
                     </div>
                 </header>
             )
@@ -43,7 +41,7 @@ function App() {
                     top: "80vh",
                     backgroundColor: '#f0f0f0',
                     width: '100%',
-                    height: 200
+                    height: 300
                 }} className={'scroller'}>
                     <img className={'scrolitem'}
                          src={require('./assets/1200px-Circle_arrow_down_font_awesome.svg.png')}
@@ -51,12 +49,12 @@ function App() {
 
                 </div>
                 <div style={{
-                    height: 500,
+                    height: 650,
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'center',
                     justifyContent: 'center',
-                    marginTop: -200
+                    marginTop: -250
                 }}>
                     <h1>היי, מזל טוב ! </h1>
                     <h1>שמחים שהגעת!</h1>
@@ -77,11 +75,10 @@ function App() {
                     <h3>ארוחת בוקר מפנקת (לא בגורילה)</h3>
                     <img src={require('./assets/FUDY4458.jpg')} style={{width: 200, borderRadius: 15}}/>
                 </div>
-                <div style={{height: 500}} onClick={() => setStep('pop')}>
+                <div style={{height: 600}} onClick={() => setStep('pop')}>
                     <h3>או פופ חדש לאוסף</h3>
                     <img src={require('./assets/funko-pop-mystery.png')} style={{width: 200, borderRadius: 15}}/>
                 </div>
-
             </header>
         </div>
     );
