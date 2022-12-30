@@ -1,16 +1,23 @@
 {
   "files": {
-    "main.css": "/bd1/static/css/main.073c9b0a.css",
-    "main.js": "/bd1/static/js/main.3fad563b.js",
+    "main.css": "/bd1/static/css/main.a90fe241.css",
+    "main.js": "/bd1/static/js/main.972627c8.js",
     "static/js/787.d84a7211.chunk.js": "/bd1/static/js/787.d84a7211.chunk.js",
+    "static/media/funko-pop-mystery.png": "/bd1/static/media/funko-pop-mystery.2a3cff6ffe16e6157d63.png",
+    "static/media/FUDY4458.jpg": "/bd1/static/media/FUDY4458.5477d7d0b3762197dc7b.jpg",
+    "static/media/Screen_Shot_2022-12-30_at_13.20.24-removebg-preview.png": "/bd1/static/media/Screen_Shot_2022-12-30_at_13.20.24-removebg-preview.a062508c0993cfb3dfcc.png",
+    "static/media/party-emoji-happy-face-with-birthday-hat-confetti-big-smile-3d_163786-497.webp": "/bd1/static/media/party-emoji-happy-face-with-birthday-hat-confetti-big-smile-3d_163786-497.d2f802c1de46580ee612.webp",
+    "static/media/Screen_Shot_2022-12-30_at_13.16.34-removebg-preview.png": "/bd1/static/media/Screen_Shot_2022-12-30_at_13.16.34-removebg-preview.be2877852a21fd58ab89.png",
+    "static/media/varela.ttf": "/bd1/static/media/varela.078dda059dd07713b7e4.ttf",
+    "static/media/1200px-Circle_arrow_down_font_awesome.svg.png": "/bd1/static/media/1200px-Circle_arrow_down_font_awesome.svg.df29c818a8205b7c8d04.png",
     "static/media/logo.svg": "/bd1/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/bd1/index.html",
-    "main.073c9b0a.css.map": "/bd1/static/css/main.073c9b0a.css.map",
-    "main.3fad563b.js.map": "/bd1/static/js/main.3fad563b.js.map",
+    "main.a90fe241.css.map": "/bd1/static/css/main.a90fe241.css.map",
+    "main.972627c8.js.map": "/bd1/static/js/main.972627c8.js.map",
     "787.d84a7211.chunk.js.map": "/bd1/static/js/787.d84a7211.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.3fad563b.js"
+    "static/css/main.a90fe241.css",
+    "static/js/main.972627c8.js"
   ]
 }
