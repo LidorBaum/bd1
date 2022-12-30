@@ -1,5 +1,12 @@
+@font-face {
+  font-family: heb_varela;
+  src: url(./assets/varela.ttf);
+}
+
 .App {
   text-align: center;
+  direction: rtl;
+  font-family: 'heb_varela' !important;
 }
 
 .App-logo {
@@ -13,7 +20,28 @@
   }
 }
 
+.scroller{
+  background-color: #61dafb !important;
+}
+
+.scrolitem {
+  animation: MoveUpDown 2s ease-in-out infinite;
+  position: absolute;
+  left: 42vw;
+  bottom: 200px;
+}
+
+@keyframes MoveUpDown {
+  0%, 100% {
+    bottom: 70px;
+  }
+  50% {
+    bottom: 130px;
+  }
+}
+
 .App-header {
+  direction: rtl;
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -22,6 +50,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  font-family: 'heb_varela' !important;
 }
 
 .App-link {
